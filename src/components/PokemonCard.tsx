@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Dimensions, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
-import { SimplePokemon } from '../interfaces/pokemonInterface'
+import { SimplePokemon } from '../interfaces/pokemonInterfaces'
 import { FadeInImage } from './FadeInImage'
 import ImageColors from 'react-native-image-colors'
 import { useNavigation } from '@react-navigation/core'

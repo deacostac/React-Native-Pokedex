@@ -3,7 +3,6 @@ import { ActivityIndicator, FlatList, Image, Text, View } from 'react-native'
 import { styles } from '../theme/appTheme'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { usePokemonPaginated } from '../hooks/usePokemonPaginated'
-import { FadeInImage } from '../components/FadeInImage'
 import { PokemonCard } from '../components/PokemonCard'
 
 export const HomeScreen = () => {

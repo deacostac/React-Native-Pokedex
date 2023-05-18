@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import { PokemonFull } from '../interfaces/pokemonInterface'
+import { PokemonFull } from '../interfaces/pokemonInterfaces'
 import { pokemonApi } from '../api/pokemonApi'
 import { useEffect } from 'react';
 
